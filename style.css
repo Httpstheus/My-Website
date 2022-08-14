@@ -454,6 +454,12 @@ ul li a:hover {
     }
 }
 
+@media (max-width: 1100px) {
+    .home {
+        display: none;
+    }
+}
+
 @media (max-width: 871px) {
     section {
         padding: 50px;
@@ -464,6 +470,7 @@ ul li a:hover {
     section{
         padding:35px;
     }
+ 
 }
 
 @media (max-width: 360px){
@@ -510,4 +517,18 @@ ul li a:hover {
     .contact-form{
       width: 300px;  
     }
+}
+
+@media (max-width: 700px){
+  .about-img{
+    display:none
+  }
+
+  .work-img{
+    display: none;
+  }
+
+  .home{
+    display: none;
+  }
 }
