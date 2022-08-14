@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Rodrigues</title>
+    <!--Link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <!--Navbar-->
+    <nav>
+        <a href="#home" class="logo">Matheus</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!--Menu-->
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Sobre</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Habilidades</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Trabalho</a></li>
+            <li><a href="#contact"onclick="toggleMenu();">Contatos</a></li>
+        </ul>
+    </nav>
+    <!--Main text and Image-->
+    <section id="home">
+        <div class="home-text">
+            <h1>Hey, I'm <br>Matheus <span>Rodrigues</span> <br>Web Developer</h1>
+            <!--Button-->
+        <a href="https://wa.me/+5535984332490?text=Ol%C3%A1!%20Vi%20sua%20p%C3%A1gina%20de%20desenvolvedor" target="_blank">WhatsApp</a>
+        </div>
+        <!--Home image-->
+    <div class="home">
+       <img src="https://i.postimg.cc/QMBb6PGG/Whats-App-Image-2022-08-14-at-16-02-50.jpg" alt="">
+    </div>
+    <!--Social-->
+    <div class="social">
+        <a href="https://www.linkedin.com/feed/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/https.theus/" target="_blank" ><i class='bx bxl-instagram'></i></a>
+        <a href="https://github.com/Httpstheus/" target="_blank"><i class='bx bxl-github'></i></a>
+    </div>
+    </section>
+
+    <!-- About section-->
+
+    <section id="about">
+        <div class="heading">
+         <h2> Sobre mim</h2>   
+         <p>Quem sou eu?</p>
+        </div>
+
+        <!--About Content-->
+        <div class="about-content">
+            <div class="about-img">
+                <img src="https://i.postimg.cc/kg7bLSxJ/Whats-App-Image-2022-08-14-at-15-36-35.jpg" alt="">
+            </div>
+           <div class="about-text">
+            <h1>Me chamo Matheus &#128512</h1>
+            <p>Se você chegou até aqui, ou você <b>achou o link do meu site,
+               ou eu estava muito tagarela e pedi para você acessar haha!</b>
+               Tenho vinte e um anos, atualmente <b>cursando Análise e Desenvolvimento de Sistemas</b>
+               Faltando 1 ano e meio para me formar. <br>
+               Desde os 13 anos sempre quis ser Arquiteto, mas com 20 anos <b>
+               escolhi essa área pelo valor das mensalidades,</b> pois Arquitetura e Urbanismo não estava no meu orçamento, desde então me apaixonei por tecnologia.
+                <br><br>Para visualizar meu currículo, é só clicar no botão abaixo
+            </p>
+           <!--Button Download CV-->
+           <a href="documentos/Curriculo.pdf" download="jaos2.pdf" type="application/pdf" >Download Cv</a>
+        </div> 
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <section id="services">
+        <!--Heading-->
+        <div class="heading">
+            <h2> Habilidades</h2>   
+            <p>Hard Skills em desenvolvimento</p> 
+        </div>
+        <div class="services-content">
+            <!-- Box -->
+
+            <div class="box">
+                <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="">
+                <h1>Html</h1>
+                <p>Focando no Front-end, os conhecimentos em html 5 são constantes, buscando melhorias contínuas para construção de sites, landing pages, formulários, usando prática de clean code e indentação para auxilio de manutenção do código</p>
+            </div>
+
+            <!-- Box -->
+
+            <div class="box">
+                <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="">
+                <h1>Css</h1>
+                <p>Estilização para que sua página tenha uma personalidade assim como você, separação e uso de class's e id's e ordem de codar conforme o contexto da página, com separação atráves de documentação para facilitar a visualização</p>
+            </div>
+
+            <!-- Box -->
+
+            <div class="box">
+                <img src="https://logospng.org/download/javascript/logo-javascript-1024.png" alt="">
+                <h1>JavaScript</h1>
+                <p>Conceitos de Orientação de Objetos, boas práticas e funcionalidades para melhorar o desempenho do seu programa/site, além de estudar a linguagem, estou focando em Frameworks como React.Js</p>
+            </div>
+            
+            <!3-- Box -->
+       
+            <div class="box">
+                <img src="https://images.ctfassets.net/ooa29xqb8tix/sHolxYPkMQO1gT5u6Aycp/bea05ce2b4fa806b7ede7a9d9dc16375/UXlogo.png?w=400&q=50" alt="">
+                <h1>UI/UX</h1>
+                <p>De fato uma das disciplinas que não imaginava tão mera importância, mas o usuário sempre será nosso foco principal, UI/UX é um dos conceitos mais importantes na grade da faculdade. Sendo usado Figma e, também usando a criatividade</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="heading">
+            <h2>Trabalhos</h2>
+            <p>Saiba como atuo no mercado</p>
+        </div>
+
+        <div class="work-content">
+            <div class="work-text">
+                <h1>Desenvolvedor e <br> Analista de Estratégia</h1> 
+                <p>Analisar Dados e desenvolver relatórios, com lógica de programação. Além disso, sou Desenvolvedor Front-End, dependendo da sua necessidade, posso também ser Full Stack.
+                    Caso tenha interesse em saber mais ou ver meu repositório, é só clicar no botão abaixo &#128515 </p>
+            <a href="https://github.com/Httpstheus/" target="_blank">GitHub</a>
+            </div>
+            <div class="work-img">
+                <img src="https://i.postimg.cc/fyY2Ld22/img1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+        <div class="heading color">
+            <h2>Contato</h2>
+            <p>Fale comigo! Assim que enviar uma mensagem, responderei dentro de 24 horas.</p>
+        </div>
+        <div class="contact-content">
+            <div class="app">
+                <h1>Entre em contato para <br>Saber mais</h1>
+                <a href="https://wa.me/+5535984332490?text=Ol%C3%A1!%20Vi%20sua%20p%C3%A1gina%20de%20desenvolvedor" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#contact"><i class='bx bx-envelope' ></i></i></a>
+            </div>
+            <div class="contact-form">
+                <form action="https://formsubmit.co/mumuumilk@gmail.com" method="POST">
+                  <input type="text" placeholder="Nome completo" required>
+                  <input type="email" placeholder="Seu e-mail" required>
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea> 
+                 <input class="contact-button" type="submit"></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright-->
+    <div class="copyright">
+        <p>&#169; Matheus Rodrigues, Todos os Direitos Reservados</p>
+    </div>
+
+
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--Link to Js-->
+  <script src="main.js">
+
+  </script>
+</body>
+</html>
